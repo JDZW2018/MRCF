@@ -4,12 +4,12 @@ import java.util.List;
 
 import org.apache.hadoop.conf.Configuration;
 
-import com.tencent.bi.cf.model.AbstractMF;
-import com.tencent.bi.cf.model.common.BiasGenerator;
-import com.tencent.bi.cf.optimization.gradient.bias.SGDBias;
-import com.tencent.bi.cf.optimization.gradient.bias.SquareBiasLoss;
-import com.tencent.bi.utils.hadoop.DataOperators;
-import com.tencent.bi.utils.hadoop.FileOperators;
+import cf.model.AbstractMF;
+import cf.model.common.BiasGenerator;
+import cf.optimization.gradient.bias.SGDBias;
+import cf.optimization.gradient.bias.SquareBiasLoss;
+import utils.hadoop.DataOperators;
+import utils.hadoop.FileOperators;
 
 import cern.colt.matrix.DoubleFactory1D;
 import cern.colt.matrix.DoubleMatrix1D;

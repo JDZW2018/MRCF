@@ -1,4 +1,4 @@
-package com.tencent.bi.utils.matrix;
+package utils.matrix;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -20,9 +20,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-import com.tencent.bi.utils.StringUtils;
-import com.tencent.bi.utils.hadoop.FileOperators;
-import com.tencent.bi.utils.serialization.MatrixRowWritable;
+import utils.StringUtils;
+import utils.hadoop.FileOperators;
+import utils.serialization.MatrixRowWritable;
 
 /**
  * Class for multiplication between one sparse and dense matrix

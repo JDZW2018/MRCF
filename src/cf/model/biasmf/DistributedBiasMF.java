@@ -22,14 +22,14 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-import com.tencent.bi.cf.model.AbstractMF;
-import com.tencent.bi.cf.model.common.BiasGenerator;
-import com.tencent.bi.cf.model.common.MatrixInitialization;
-import com.tencent.bi.cf.optimization.gradient.bias.SquareBiasLoss;
-import com.tencent.bi.cf.optimization.gradient.bias.DistributedSGDBias;
-import com.tencent.bi.utils.hadoop.DataOperators;
-import com.tencent.bi.utils.hadoop.FileOperators;
-import com.tencent.bi.utils.io.MatrixIO;
+import cf.model.AbstractMF;
+import cf.model.common.BiasGenerator;
+import cf.model.common.MatrixInitialization;
+import cf.optimization.gradient.bias.SquareBiasLoss;
+import cf.optimization.gradient.bias.DistributedSGDBias;
+import utils.hadoop.DataOperators;
+import utils.hadoop.FileOperators;
+import utils.io.MatrixIO;
 
 import cern.colt.matrix.DoubleFactory1D;
 import cern.colt.matrix.DoubleMatrix1D;

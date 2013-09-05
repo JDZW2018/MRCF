@@ -1,4 +1,4 @@
-packagecf.model.collectivemf;
+package cf.model.collectivemf;
 
 import org.apache.hadoop.conf.Configuration;
 

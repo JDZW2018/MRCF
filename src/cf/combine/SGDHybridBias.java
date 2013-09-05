@@ -25,13 +25,13 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-import com.tencent.bi.cf.optimization.Loss;
-import com.tencent.bi.utils.StringUtils;
-import com.tencent.bi.utils.hadoop.FileOperators;
-import com.tencent.bi.utils.hadoop.ModelOperator;
-import com.tencent.bi.utils.io.MatrixIO;
-import com.tencent.bi.utils.serialization.LongPairWritable;
-import com.tencent.bi.utils.serialization.MatrixRowWritable;
+import cf.optimization.Loss;
+import utils.StringUtils;
+import utils.hadoop.FileOperators;
+import utils.hadoop.ModelOperator;
+import utils.io.MatrixIO;
+import utils.serialization.LongPairWritable;
+import utils.serialization.MatrixRowWritable;
 
 
 /**

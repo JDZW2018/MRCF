@@ -19,13 +19,13 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-import com.tencent.bi.cf.combine.SGDHybridBias.SGDMapper;
-import com.tencent.bi.cf.model.common.BiasGenerator;
-import com.tencent.bi.cf.model.common.MatrixInitialization;
-import com.tencent.bi.utils.hadoop.DataOperators;
-import com.tencent.bi.utils.hadoop.FileOperators;
-import com.tencent.bi.utils.io.MatrixIO;
-import com.tencent.bi.utils.serialization.MatrixRowWritable;
+import cf.combine.SGDHybridBias.SGDMapper;
+import cf.model.common.BiasGenerator;
+import cf.model.common.MatrixInitialization;
+import utils.hadoop.DataOperators;
+import utils.hadoop.FileOperators;
+import utils.io.MatrixIO;
+import utils.serialization.MatrixRowWritable;
 
 import cern.colt.matrix.DoubleFactory2D;
 import cern.jet.math.Mult;
