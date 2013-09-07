@@ -1,11 +1,26 @@
 MRCF
 =========
 
-A Matrix Factorization Package based on Map/Reduce.
+A Collaborative Filtering Package based on Map/Reduce.
 
-It contains the following implementations. 
+It contains the following implementations with different loss functions and optimization methods: 
 
-1. FeatureMF
-2. SocialMF
-3. SVD++
-4. KNN
+Models:
+###
+		1. BasicMF
+		2. FeatureMF
+		3. SocialMF
+		4. SVD++
+		5. KNN
+
+Loss:
+###
+		1. Square Loss
+		2. Poisson Loss
+		3. Pairwise Rank Loss
+		
+Optimization Methods:
+###
+		1. SGD
+		2. Newton (Testing)
+		3. ALS (Testing)
